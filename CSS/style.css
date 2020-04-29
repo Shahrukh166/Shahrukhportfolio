@@ -1,0 +1,677 @@
+
+
+/* .view {
+    background: url("/Images/luca-bravo-9l_326FISzk-unsplash.jpg")no-repeat center center;
+    background-size: cover;
+} */
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+body{
+    font-family: 'Comic Neue', cursive;
+    
+
+
+    /* font-family: 'Comic Neue', cursive;
+font-family: 'Roboto Mono', monospace; */
+}
+@font-face {
+  
+    font-family: 'Comic Neue', cursive;
+ }
+/* 
+nav#navbar_top {
+    background-color: black;
+} */
+
+/* navbar */
+.hirelink{
+    border:none ;
+    padding: 5px 15px;
+    background-color:white;
+    color: black;
+    border-radius: 3px;
+}
+.hirelink:hover{
+    background-color:rgb(56, 55, 55);
+    color: white;
+    text-decoration: none;
+    border: solid 2px skyblue ;
+    
+}
+
+
+a.scrollto.nav-link {
+    border-radius: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+a.scrollto.nav-link:hover {
+    border-bottom: #754DFC solid 4px;
+    border-radius: none;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+
+/* navbar */
+
+.bg-dark {
+    transition: 750ms ease-in;
+    background-color: #0b0b0b transparent !important;
+}
+.bg-dark.scrolled {
+    background-color: #754DFC !important;
+    
+}
+.nav-link .scrolled {
+    transition: 750ms ease-in;
+    color: rgb(255, 255, 255);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color:black;
+    border-bottom: solid black 5px;
+ 
+}
+
+
+/* 
+.bg-dark.hirelink.scrolled{
+
+    background-color:white;
+} */
+
+/* main header cover section */
+.coverheading{
+color: white;
+}
+
+
+.masthead {
+    height: 100vh;
+    min-height: 500px;
+    background-image: url('/Images/luca-bravo-9l_326FISzk-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+/* main header cover section */
+
+  
+
+/* paragraph start */
+
+
+#paragraph{
+    width: 93%;
+    text-align: center;
+}
+p.paragraph{
+width: 700px auto;
+
+}
+/* paraend */
+
+/* header content */
+
+.section-text{
+    padding-top: 15%;
+}
+
+/* header content */
+
+
+
+/* section about */
+.sectionabout {
+    
+    height: 100px;
+    width: 300px;
+    margin: 2%;
+}
+.section-content{
+   
+    display: inline-table;
+    margin: 5%;
+}
+
+/* sectioon about */
+
+/* My Portfolio work projects */
+
+button.btn.portfoliobtn {
+    background-color: whitesmoke;
+    border-radius: 53px;
+}
+.button2{
+    background-color: #8F70F9;
+}
+/* My Portfolio work Prijects end */
+
+
+
+/* My Services */
+button.btn.portfoliobtn:hover {
+    background-color: blueviolet;
+    overflow: hidden;
+    color: white;
+}
+
+
+/* download CV Button */
+.download{
+    background-color: #754DFC;
+    color: white;
+}
+/* download CV Button */
+
+input.btn.btn-primary.fa.fa-refresh.py-3.px-5.btn-block {
+    background-color: whitesmoke;
+    border: none;
+    color: black;
+}
+input.btn.btn-primary.fa.fa-refresh.py-3.px-5.btn-block:hover{
+    background-color: blueviolet;
+    border: none;
+    color: white;
+}
+
+/* MY Services */
+/* Services Cards */
+
+
+/* Services Cards end */
+
+/* card body */
+.cardbody{
+   
+    height: 160px;
+    width: auto;
+    background-color: aqua;
+}
+h3.cardbody{
+    padding-top: 38px;
+}
+
+
+
+.card{
+    margin: 15px;
+    width: 18rem;
+    border: none;
+}
+
+/* card body */
+
+
+
+
+
+
+/* work Progress */
+.workprogress{
+    height: 160px;
+    /* background-color: #754DFC; */
+    color: white;
+}
+
+.workprogress h3{
+    padding-top: 38px;
+}
+.workcover{
+    background-image: url(/Images/profile.jpg);
+    background-image: url(/Images/profile.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+/* work Progress */
+
+
+
+
+
+/* Skill Set Progress Bar */
+
+.progress-bar {
+    border-radius: 15px;
+    background-color: #754DFC;
+}
+div.progress-bar {
+    width: 100% auto;
+    height: auto;
+    background-color: #754DFC;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-direction:alternate-reverse;  
+    scroll-behavior: auto;
+    animation-timing-function:ease-in-out;
+  }
+  @keyframes example {
+    0%   {background-color:#754DFC; right:0px;}
+    25%  {background-color:#754DFC; right:200px; }
+    50%  {background-color:#754DFC; right:200px; }
+    75%  {background-color:#754DFC; right:200px;}
+    100% {background-color:#754DFC; right:200px; }
+  }
+  .progress-bar{
+    border-radius: 10px;
+    background-color: #754DFC;
+    position: relative;
+    
+  }
+  
+  .progress{
+    border-radius: 10px;
+  }
+  #percent{
+    float: right;
+  }
+  
+
+
+
+
+  /* skill set progress bar */
+  
+
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    margin-left: 60px;
+  }
+  
+  .hovereffect .overlay {
+    width: 60%;
+    height:100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.6);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: translate(460px, -100px) rotate(180deg);
+    -ms-transform: translate(460px, -100px) rotate(180deg);
+    transform: translate(460px, -100px) rotate(180deg);
+    -webkit-transition: all 0.2s 0.4s ease-in-out;
+    transition: all 0.2s 0.4s ease-in-out;
+    border-radius: 128px;
+  }
+  
+  .hovereffect img {
+    display: block;
+    position: relative;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    width: 170px;
+  }
+  
+  .hovereffect h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 13px;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.6);
+    padding-top: 15px;
+  }
+  
+  .hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin: 50px 0 0 0;
+    background-color: transparent;
+    -webkit-transform: translateY(-200px);
+    -ms-transform: translateY(-200px);
+    transform: translateY(-200px);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+  }
+  
+  .hovereffect:hover .overlay {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+    -webkit-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+  }
+  
+  .hovereffect:hover h2 {
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition-delay: 0.5s;
+    transition-delay: 0.5s;
+  }
+  
+  .hovereffect:hover a.info {
+    -webkit-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+  }
+
+
+
+
+
+
+
+  
+/* what can i do section */
+
+
+
+
+/* what can i do section */
+
+
+
+/* Dynamic Tabs */
+
+.Dynamictabs{
+width: 100%;
+}
+.Dynamictabs ul{
+    width: 100%;
+}
+.Dynamictabs li{
+    margin: 0px;
+    padding-left:5px;
+    padding-Right:5px;
+    text-decoration: none;
+    border: 1px solid;
+    
+}
+.Dynamictabs li a :hover{
+    display: table-column;
+}
+
+
+
+/* Dynamic Tab End */
+
+
+
+
+/* contact form control */
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: black;
+    background-color: transparent;
+    background-clip: padding-box;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    border-bottom: #8F70F9;
+    border-bottom-style: solid;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+  
+}
+.form-control:hover{
+    border-bottom: #8F70F9;
+    background-color: whitesmoke;
+}
+
+label {
+    color: white;
+}
+.contactformcover p {
+    color: white;
+    
+}
+.contactformcover h2{
+    color: white;
+}
+
+/* contact form control end */
+
+
+/* contact form cover */
+form#contact-form {
+    padding: 10px;
+}
+.contactformcover{
+    background-image: url(/Images/contact1.jpg);
+    backface-visibility: visible;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-color: #0e0e0ea6;
+}
+
+
+
+::before {
+    color: white;
+}
+/* contactform cover */
+
+
+img.skillimagecharacter {
+    width: 360px;
+    height: 320px;
+    margin-left: 50px;
+}
+
+/* recaptcha section */
+.field.recaptcha {
+    
+    color: white;
+}
+
+/* recaptcha section */
+
+
+
+
+
+/* Animation */
+
+
+footer.page-footer.font-small.indigo {
+    background-color: #754dfc;
+}
+footer a {
+    color: #f4f9ff;
+    text-decoration: none;
+    background-color: transparent;
+}
+footer a:hover {
+    color:rgb(48, 47, 47);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+hr.rgba-white-light {
+    background-color: white;
+}
+
+
+
+
+#demo {
+    height:100%;
+    position:relative;
+    overflow:hidden;
+  }
+  
+  
+  .green{
+    background-color:#6fb936;
+  }
+          .thumb{
+              margin-bottom: 30px;
+          }
+          
+          .page-top{
+              margin-top:85px;
+          }
+  
+     
+  img.zoom {
+      width: 100%;
+      height: 200px;
+      border-radius:5px;
+      object-fit:cover;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+  }
+          
+   
+  .transition {
+      -webkit-transform: scale(1.2); 
+      -moz-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+  }
+      .modal-header {
+     
+       border-bottom: none;
+  }
+      .modal-title {
+          color:#000;
+      }
+      .modal-footer{
+        display:none;  
+      }
+
+
+
+
+/* Blogging topics */
+.main_title {
+    text-align: center;
+}
+.l_blog_img img{
+    border-radius: 10px;
+}
+/* Blogging Topics  */
+
+
+
+
+
+
+
+
+
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+
+/* card body media query */
+
+@media (max-width: 768px){
+    .containerr {
+        position: relative;
+        width: 50%;
+        margin-left: 40px;
+    }
+    .card{
+        width: 12rem;
+    }
+    .hovereffect {
+        width: 100%;
+        height: 100%;
+        float: left;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        cursor: default;
+        margin-left: 0px;
+    }
+    .hovereffect .overlay {
+        width: 89%;
+        cursor: auto;
+    }
+    img.skillimagecharacter {
+        width: 274px;
+        height: 320px;
+        margin: 0;
+        margin-top: 40px;
+       }
+     
+}
+@media (max-width: 320px){
+
+
+    img.skillimagecharacter {
+       
+    width: 235px;
+    height: 270px;
+    }
+    .card {
+        margin-left: 15px;
+    }
+    .hovereffect img {
+        display: block;
+        position: relative;
+        -webkit-transition: all 0.2s ease-in;
+        transition: all 0.2s ease-in;
+        width: 180px;
+    }
+    .hovereffect .overlay {
+        width: 92%;
+        height:100%;
+    }
+    .hovereffect h2 {
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        font-size: 15px;
+        padding: 5px;
+        background: rgba(0, 0, 0, 0.6);
+       
+    }
+    .hovereffect{
+        margin-left: 55px;
+    }
+}
+
+
+
+
