@@ -303,7 +303,8 @@ div.progress-bar {
     overflow: hidden;
     top: 0;
     left: 0;
-    background-color: rgba(0,0,0,0.6);
+    /* background-color: rgba(0,0,0,0.6); */
+    background-color: rgb(117, 77, 252);
     opacity: 0;
     filter: alpha(opacity=0);
     -webkit-transform: translate(460px, -100px) rotate(180deg);
@@ -643,9 +644,7 @@ hr.rgba-white-light {
     width: 235px;
     height: 270px;
     }
-    .card {
-        margin-left: 0px;
-    }
+    
     .hovereffect img {
         display: block;
         position: relative;
@@ -654,7 +653,7 @@ hr.rgba-white-light {
         width: 180px;
     }
     .hovereffect .overlay {
-        width: 92%;
+        width: 94%;
         height:100%;
     }
     .hovereffect h2 {
@@ -672,6 +671,10 @@ hr.rgba-white-light {
     }
 }
 
-
+@media (min-width: 320px){
+    .card {
+        margin-left: 0px;
+    }
+}
 
 
