@@ -688,6 +688,7 @@ hr.rgba-white-light {
 @media (min-width: 320px){
     .card {
         margin-left: 0px;
+        margin-right:0px
     }
     .row.mx-auto.fadeInDown.animated.delay-2s {
         position: sticky;
