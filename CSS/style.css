@@ -644,7 +644,7 @@ hr.rgba-white-light {
     height: 270px;
     }
     .card {
-        margin-left: 15px;
+        margin-left: 0px;
     }
     .hovereffect img {
         display: block;
