@@ -674,6 +674,7 @@ hr.rgba-white-light {
 @media (min-width: 320px){
     .card {
         margin-left: 0px;
+        margin-right:0px
     }
 }
 
