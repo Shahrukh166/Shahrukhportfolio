@@ -11,7 +11,7 @@ header,
   height: 100%;
 }
 body{
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Open Sans', sans-serif;
     
 
 
@@ -20,7 +20,7 @@ font-family: 'Roboto Mono', monospace; */
 }
 @font-face {
   
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Open Sans', sans-serif;
  }
 /* 
 nav#navbar_top {
@@ -102,6 +102,26 @@ color: white;
     background-position: center;
     background-repeat: no-repeat;
   }
+ 
+  a.headerbutton:hover{
+
+    color: white;
+    background-color: blueviolet;
+    overflow: hidden;
+    
+   
+}
+.headerbutton{
+    font-size: medium;
+    color: black; 
+    background-color: whitesmoke; 
+    border: 1px solid #754DFC; 
+    border-radius: 50px;
+}
+
+     
+
+  
 /* main header cover section */
 
   
@@ -165,12 +185,6 @@ button.btn.portfoliobtn:hover {
 }
 
 
-/* download CV Button */
-.download{
-    background-color: #754DFC;
-    color: white;
-}
-/* download CV Button */
 
 input.btn.btn-primary.fa.fa-refresh.py-3.px-5.btn-block {
     background-color: whitesmoke;
@@ -674,6 +688,9 @@ hr.rgba-white-light {
 @media (min-width: 320px){
     .card {
         margin-left: 0px;
+    }
+    .row.mx-auto.fadeInDown.animated.delay-2s {
+        position: sticky;
     }
 }
 
