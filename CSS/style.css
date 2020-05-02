@@ -521,27 +521,24 @@ img.skillimagecharacter {
 /* Animation */
 
 
-footer.page-footer.font-small.indigo {
-    background-color: #754dfc;
+
+/* footer */
+
+
+.footercontent{
+  color: white;
 }
-footer a {
-    color: #f4f9ff;
-    text-decoration: none;
-    background-color: transparent;
+.footercontent{
+    color: white;
 }
-footer a:hover {
-    color:rgb(48, 47, 47);
-    text-decoration: none;
-    background-color: transparent;
+footer.page-footer.font-small.unique-color-dark {
+    background-color: #000000ad;
 }
-
-hr.rgba-white-light {
-    background-color: white;
+.copyrighted-badge{
+    
 }
 
-
-
-
+/* footer */
 #demo {
     height:100%;
     position:relative;
