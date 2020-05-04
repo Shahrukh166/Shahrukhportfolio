@@ -1,8 +1,5 @@
 User-agent: Googlebot
-Disallow: /Certificate/
+Disallow: /Certifiate/
 Disallow: /Reports/
-Disallow: /Images/
-Disallow: /docs/
-Disallow: updation file.html
 
 sitemap: https://theportfoliohub.com/sitemap.xml
