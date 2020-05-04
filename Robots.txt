@@ -1,0 +1,7 @@
+User-agent: Googlebot
+Disallow: /Certificate/
+Disallow: /Reports/
+Disallow: /Images/
+Disallow: /docs/
+
+sitemap: https://theportfoliohub.com/sitemap.xml
