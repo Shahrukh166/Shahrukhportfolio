@@ -1,4 +1,7 @@
+User-agent: Mediapartners-Google
+User-agent: Googlebot-news
 User-agent: Googlebot
+User-agent: anothercrawler
 Disallow: /Certifiate/
 Disallow: /Reports/
 Disallow: updation file.html
